@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Dropdown menu */
+nav ul .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    background-color: #333;
+    flex-direction: column;
+    z-index: 10;
+}
+
+/* Show submenu on hover */
+nav ul li:hover > .submenu {
+    display: flex;
+}
+
+.submenu li a {
+    padding: 12px 15px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    nav > ul {
+        flex-direction: column;
+    }
+
+    nav ul .submenu {
+        position: static;
+    }
+}
