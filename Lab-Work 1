@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 align="center">RESUME</h1>
+        <hr>
+    </header>
+
+    <section>
+        <h2>My Personal Details</h2>
+        <p><b>Name:</b> Mankhush Kumar</p>
+        <p><b>Enrollment No:</b> 92600527112 </p>
+        <p><b>Email:</b> mankhush.kumar146743@marwadiuniversity.ac.in</p>
+        <p><b>Mobile:</b> 7362803515</p>
+        <p><b>Address:</b> Samastipur, Bihar(848117)</p>
+        <p><b>DOB:</b> 15/08/2009</p>
+    </section>
+
+</body>
+</html>
