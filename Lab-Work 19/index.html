@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+</head>
+<body>
+
+    <h2>Simple Calculator</h2>
+
+    <script>
+        var num1 = Number(prompt("Enter first number:"));
+        var num2 = Number(prompt("Enter second number:"));
+
+        var addition = num1 + num2;
+        var subtraction = num1 - num2;
+        var multiplication = num1 * num2;
+        var division = num1 / num2;
+
+        document.write("First Number: " + num1 + "<br>");
+        document.write("Second Number: " + num2 + "<br><br>");
+
+        document.write("Addition: " + addition + "<br>");
+        document.write("Subtraction: " + subtraction + "<br>");
+        document.write("Multiplication: " + multiplication + "<br>");
+
+        if (num2 != 0) {
+            document.write("Division: " + division);
+        } else {
+            document.write("Division: Cannot divide by zero");
+        }
+    </script>
+
+</body>
+</html>
